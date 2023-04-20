@@ -1,0 +1,123 @@
+.App {
+  background-color: #122638;
+
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h3 {
+  color:#263360;
+}
+
+.count {
+  margin: 10px;
+  padding: 10px;
+  /*display: flex;*/
+  /*justify-content: center;*/
+  /*align-items: center;*/
+  width: 254px;
+  height: 216px;
+  border: 2px solid cornflowerblue;
+  border-radius: 10px;
+  background-color: #122638;
+}
+
+.display {
+  margin-bottom: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 230px;
+  height: 80px;
+  border: 2px solid cornflowerblue;
+  border-radius: 10px;
+  background-color: cornflowerblue;
+}
+
+.button-place {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 230px;
+  height: 80px;
+  border: 2px solid cornflowerblue;
+  border-radius: 10px;
+}
+
+.button {
+  width: 100px;
+  height: 50px;
+  /*border: 2px solid cornflowerblue;*/
+  border-radius: 10px;
+  font-weight: bold;
+  background-color: cornflowerblue;
+  color: #122638;
+  font-size: 27px;
+}
+.span-block {
+  padding: 10px;
+}
+
+h1 {
+  color: #122638;
+  font-size: 50px;
+}
+
+.redCount {
+  color: red;
+}
+
+.disabled {
+  background-color: #263360;
+  width: 100px;
+  height: 50px;
+  border: 2px solid cornflowerblue;
+  border-radius: 10px;
+  font-weight: bold;
+  color: #122638;
+  font-size: 27px;
+}
+
+.maxValue {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.maxValue input{
+  padding-left: 15px;
+  text-align: center;
+  margin-left: 35px;
+  width: 50px;
+  height: 13px
+
+}
+
+.startValue {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.startValue input{
+  padding-left: 15px;
+  text-align: center;
+  margin-left: 30px;
+  width: 50px;
+  height: 13px
+
+}
+
+.inputError {
+  background-color: red;
+}
+
+.incorrectValue{
+  color:red;
+}
